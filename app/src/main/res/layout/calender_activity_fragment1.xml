@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:plainpie="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_centerHorizontal="true"
+    android:background="#A9A9A9	"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_weight="1.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:id="@+id/week_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/latestbanner" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="0dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#FFFFFF">
+
+
+                <LinearLayout
+                    android:layout_centerInParent="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:id="@+id/leftArrow"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/layoutcorner"
+                        android:gravity="center">
+
+                        <Button
+                            android:clickable="false"
+                            android:layout_width="31dp"
+                            android:layout_height="39dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/leftarrowtwo" />
+
+                        <TextView
+                            android:clickable="false"
+                            android:id="@+id/lefttext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="0dp"
+                            android:text="1"
+                            android:textColor="@color/WhiteColor"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/weeksShow"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="week" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:id="@+id/rightarrow"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/layoutcorner"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:clickable="false"
+                            android:id="@+id/rithtext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:text="1"
+                            android:textColor="@color/WhiteColor"
+                            android:textSize="24sp" />
+
+                        <Button
+                            android:clickable="false"
+                            android:layout_width="31dp"
+                            android:layout_height="39dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/rightarrow1" />
+
+
+                    </LinearLayout>
+
+
+                    <!--<Button-->
+                    <!--android:id="@+id/leftArrow"-->
+                    <!--android:layout_width="72dp"-->
+
+                    <!--android:layout_height="60dp"-->
+                    <!--android:layout_marginRight="120dp"-->
+                    <!--android:background="@drawable/leftarrow"-->
+                    <!--android:textSize="24sp"-->
+                    <!--android:text="1" />-->
+
+                    <!--<Button-->
+                    <!--android:id="@+id/hushband1"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_marginRight="2dp"-->
+                    <!--android:alpha="25"-->
+                    <!--android:text="Husband"-->
+                    <!--android:textColor="#666362" />-->
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </FrameLayout>
+
+        <az.plainpie.PieView
+            android:id="@+id/pieView"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            plainpie:inner_pie_padding="40"
+            plainpie:inner_text_visibility="true"
+            plainpie:percentage="75"
+            plainpie:percentage_size="20" />
+
+        <babykicker.qbayapps.quadrobay.com.babykicker.LimitIndicator
+
+            android:visibility="gone"
+            android:id="@+id/limitIndicator"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@color/WhiteColor"
+            custom:borderColor="#FF9900"
+            custom:borderRadius="15dp"
+            custom:innerCircleColor="#efefef"
+            custom:numerator="75"
+            custom:outerCircleRadius="105dp"
+            custom:text="Test Test"
+            custom:textColor="#000000"
+            custom:textSize="16sp" />
+
+    </RelativeLayout>
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:layout_height="0dp">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="81dp">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+
+
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagelogo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:src="@drawable/babytracks" />
+
+        <TextView
+            android:id="@+id/babytips"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Your baby is about as heavy as a honeydew melon"
+            android:textAlignment="center"
+            android:textColor="?android:attr/colorForeground"
+            android:textStyle="bold" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/deliverydate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightcyan"
+            android:text="date"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/WhiteColor"
+            android:textStyle="bold" />
+
+</LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

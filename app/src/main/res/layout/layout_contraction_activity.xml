@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#D7DBDD"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/top_navigation_layout"
+        android:background="@color/lightcyan"
+        android:visibility="visible"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <LinearLayout
+            android:id="@+id/navigation_btn_layout"
+            android:orientation="horizontal"
+
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/backbutton1"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#00ffffff"
+                android:contentDescription="welcome"
+                android:scaleType="fitCenter"
+                android:src="@drawable/navbackbutton" />
+
+            <TextView
+                android:id="@+id/titlenavi"
+                android:layout_width="328dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:paddingTop="15dp"
+                android:text="Contraction Timer"
+                android:textAlignment="center"
+                android:textColor="@color/WhiteColor"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/shareView"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:background="#00ffffff"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:padding="10dp"
+
+                android:src="@drawable/sharing_trans" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    <android.support.v7.widget.CardView
+        card_view:cardCornerRadius="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="40dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="54sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" : "
+        android:textAlignment="center"
+        android:textSize="54sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="54sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" : "
+        android:textAlignment="center"
+        android:textSize="54sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/seconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 "
+        android:textAlignment="center"
+        android:textSize="54sp"
+        android:textStyle="bold" />
+</LinearLayout>
+    </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/timeContraction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Time since last contraction:"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/stopcontraction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/GreenColor"
+            android:text="Start Contraction"
+            android:textColor="@color/WhiteColor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:background="#0B4646"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="30dp">
+
+    <TextView
+        android:layout_width="81dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Length"
+        android:textAlignment="center"
+
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="98dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Time apart"
+        android:textAlignment="center"
+
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Start and stop time"
+        android:textAlignment="center"
+
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:background="#FFFFFF"
+
+            android:id="@+id/recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:background="@color/lighgrey"
+        android:text="Average in last hour"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="0dp"
+        android:background="#FFFFFF"
+        android:text=""
+        android:id="@+id/contractionsecondstext"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>

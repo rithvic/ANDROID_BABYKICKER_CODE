@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+    <string name="openDrawer">Navigation</string>
+    <string name="closeDrawer">Close Navigation</string>
+
+    <string name="app_name">BabyKickerTracker</string>
+    <string name="btn_capture">Capture</string>
+
+    <string-array name="week_info">
+
+        <item>Nothing to do today</item>
+        <item>Nothing to do today</item>
+        <item>Nothing to do today</item>
+        <item>Nothing to do today</item>
+        <item>If you got only a faint line on your pregnancy test, possibly you are pregnant. Test again with morning urine to confirm.</item>
+        <item>I maintain a food diary to keep track of the quality of food I eat. I am also cutting back on greasy and sweet stuff and snack on nuts instead.</item>
+        <item>Smelling ginger helped me so much! This was helpful when smells got overpowering, especially when walking around outside. I would carry a piece with me just sniff it and the feeling of nausea left.</item>
+        <item>Pomegranates are safe and healthy during pregnancy. They are not only good for digestion, but also help with nausea during early pregnancy. I used to have one full pomegranate every day during my first trimester.</item>
+        <item>When I'm going through those things that are annoying or downright unpleasant about being pregnant, I remind myself that it is only for a short time in my life and that I am on such an amazing journey.</item>
+        <item>When I'm going through those things that are annoying or downright unpleasant about being pregnant, I remind myself that it is only for a short time in my life and that I am on such an amazing journey.</item>
+        <item> I feel yoga helps me in maintaining the flexibility of my body and meditation helps me control my blood pressure. After doing all this I get peaceful sleep and the feeling of calmness.</item>
+        <item>What helps me with my morning sickness is eating a biscuit or two when I get up in the morning or whenever I feel nauseous. One of my friends has a banana instead. Find out what food helps you to control your nausea. It usually happens when your stomach is empty.</item>
+        <item>I found that I could not go back to sleep if I got out of bed to even get a bottle of water in the middle of the night. So, I kept a bottle of water by my bedside so that I don't have to get up if I wake up thirsty.</item>
+        <item>"As soon as I was four months pregnant, my morning sickness vanished. However, it was replaced with chronic heartburn. I found a natural cure -- ripe papaya -- it helped reduce the symptoms." - Akshita</item>
+        <item>"Because I had a very easy first few months, I found it hard to believe I was really pregnant. So I built up a relationship with my baby by chatting to her and putting the headphones on my bump when I was listening to music." – Karishma</item>
+        <item>"Our local swimming pool offers water aerobics for expectant mums as an alternative to swimming. This is a great way to add some variety to your workout. I take my older child with me and let him swim while I exercise!" – Hrishita</item>
+        <item>"I wasn't sure if I could feel my baby moving so a friend suggested I lie down for a while. After a few minutes, I started feeling a butterfly sensation low down. It was amazing!" - Laila</item>
+        <item>"I had piles in my last pregnancy so I wasn't surprised when they appeared again. This time a friend suggested taking vitamin E capsules and they've helped." – Diya</item>
+        <item>"By 3 pm, I'd feel really exhausted at work, so I started eating a fruit, such as an apple, orange or pear and would then take a 15-minute break. It helped me get through the rest of the day." - Sara</item>
+        <item>"Try gently massaging your ligaments or use a heat pad, hot water bottle or warmed facecloth. If the ache continues, if it's one-sided or if it's down your back, it's a good idea to get it checked by your doctor." - Rakhi</item>
+        <item>"Fresh pineapple (eaten in small amounts) has helped reduce my heartburn." – Janet</item>
+        <item>"A quick remedy I've found for swollen feet is to wrap them in a cold wet cloth before I put them up." – Kavita </item>
+        <item> "I kept a diary of my pregnancy for my son and I brought it to the hospital with me so I could write to him as soon as I felt up to it. It really helped to share all the feelings I was having." - Binita</item>
+        <item>"When I started having trouble sleeping during my pregnancy, I asked my friends for their ideas. One suggested I take a half-hour walk during the day. It really helped me sleep better and it felt great to have a bit of time to myself." – Kriti</item>
+        <item>To relieve finger pain and numbness, I keep a bag of ice in the freezer. I apply it to my hands and wrists several times a day." - Julie</item>
+        <item>"To ease constipation, add oat bran to anything you can think of such as cereal, yogurt, or even spaghetti sauce. And drink lots of fluids too!" – Kripa</item>
+        <item>"To help yourself relax, immerse your feet in a basin filled with warm water. Add a few drops of scented oil or rose petals and enjoy." - Roopa</item>
+        <item>"Need more vitamin C? Try guavas! The edible rind of guavas have more than five times the vitamin C of an orange. A great way to eat one of the five servings of fruit and veggies you need to eat healthily each day." - Namita</item>
+        <item>"Now that it's later in my pregnancy, I find that if I sleep on either side with a pillow tucked underneath my stomach, I don't wake up at night." – Vanisha</item>
+        <item>"Banish the pregnancy blues by enjoying your last weeks of pre-baby freedom. Go to a film, have a facial or a romantic dinner - do all the things you may not have time for once your baby is here." – Anusha</item>
+        <item>"Rubbing some olive oil on my legs and putting my feet up for 20 minutes has helped dramatically in relieving my varicose veins. ." – Anjali</item>
+        <item>"I'm 32 weeks pregnant, and at my classes they've been telling us to concentrate on a focal point during labour. Anything from a picture to a crack in the wall or ceiling can work, so long as it helps you</item>
+        <item>"I had Braxton Hicks contractions in spades starting at about 26 weeks. My doctor advised me to go to the loo when they started and drink plenty of water. This helped tremendously. I now get only one or two a day, and they are much more manageable." - Sandy</item>
+        <item>Make life easier for yourself. Stock up on basics - everything from masalas to socks - before shopping becomes too much of a chore. Train your maid to cook these nutritious recipes for new mums for the early weeks</item>
+        <item>"In late pregnancy, turning over in bed can be a nightmare. The solution? Big satin pyjamas - the slipperiness of satin helps tremendously!" - Raji</item>
+        <item> Parent tip: Get ahead for those first weeks "Not everyone shops before their baby is born, if you are one of those then make a checklist of what has to be bought right after the birth – nappies, towels, outfits and any other essentials while you're still in control of your time!"</item>
+        <item>"Put your favourite CDs or tapes - and a player - in the bag you'll be taking to the hospital. And don't forget to stuff some high-energy music in with the calming classical variety. Our favourite was Ravishankar's sitar recitals</item>
+        <item> Are you sure you've packed everything you need if you're having a hospital birth? Take a look at the hospital packing checklist. It's a good idea to sort out the clothes you want your baby to wear after birth and for the journey home.</item>
+        <item>Your spouse should try to relax, too, and enjoy some activities there won't be time for after the baby arrives.</item>
+        <item>"When I had a show, I expected to be in labour almost immediately. I didn't know I'd have to wait for nearly three days before my waters broke!" – Praachi</item>
+        <item>Hello little baby</item>
+
+    </string-array>
+
+    <string-array name="cweek">
+
+    <item> </item>
+    <item> </item>
+    <item> </item>
+        <item>After talking to our doctors we've compiled a slideshow comparing your baby's size to easily recognisable pulses, fruits and vegetables. </item>
+        <item> Your baby, now officially an embryo, is about the size of a poppy seed (khus khus seed). </item>
+        <item>Find out more about your baby's development this week.</item>
+        <item> Your baby is about the size of a sesame seed (til), looking more like a tiny tadpole than a human being. </item>
+        <item> By six weeks, your baby is about the size of a lentil (a grain of dal). Length: 5mm (under ¼ inch). This is also about the time that a scan can pick up your baby's heart beat for the first time. </item>
+        <item>Your baby, having doubled in size since last week, is about as big as a chickpea (chhola). Length: 10mm (under ½ inch). </item>
+        <item>our baby, now about the size of a kidney bean (rajma), weighs roughly 1g and is constantly moving and shifting. (Length: about 1.6cm, head to bottom.)   </item>
+        <item> Your baby is around the same size as a grape (angoor) and weighs about 2g. (Length: roughly 2.3cm, head to bottom.) </item>
+        <item> Your baby, now barely the size of a green olive (jaitoon), weighs about 4g. (Length: around 3.1cm, head to bottom.) </item>
+        <item> Your baby is now about as big as a fig (anjeer) and weighs around 7g. (Length: about 4.1cm, head to bottom.) </item>
+        <item>  Your baby is about the size of a lime (nimbu) and weighs roughly 14g. (Length: about 5.4cm, head to bottom.)    </item>
+        <item>  Your baby is almost as long as a pea-pod (matar) and weighs about 23g. (Length: roughly 7.4cm, head to bottom.)</item>
+        <item> Your baby, now roughly the size of a lemon (bada nimbu), weighs about 43g, almost double the weight of last week. (Length: around 8.7cm, head to bottom.)</item>
+        <item> Your baby has grown to around the same size as an apple (seb) and weighs about 70g. (Length: roughly 10.1cm, head to bottom.) </item>
+        <item> This week your baby measures up to a pear (nashpati) in size and weighs roughly 100g. (Length: around 11.6cm, head to bottom.)</item>
+        <item> Your baby is nearly as big as a capsicum (shimla mirch) and weighs about 190g. (Length: around 14.2cm, head to bottom.)</item>
+        <item> This week your baby is about as large as a big tomato (tamatar) and weighs about 240g. (Length: roughly 15.3cm, head to bottom.) </item>
+        <item> Your baby has grown about as long as a banana (kela) and weighs roughly 300g. (From about 20 weeks your baby will be measured from head to heel. Length: about 16.4cm, head to bottom, and 25.6cm, head to heel.) </item>
+        <item> Your baby, almost as long as a carrot (gajar), weighs about 360g. (Length: roughly 26.7cm, head to heel.) </item>
+        <item> Your baby is around the size of a long cucumber or a kakdi and weighs about 430g. (Length: roughly 27.8cm, head to heel.) </item>
+        <item> Your baby weighs about as much as a large mango (aam), just over 500g. (Length: about 28.9cm, head to heel.)</item>
+        <item> Your baby is nearly as long as an ear of corn (bhutta) and weighs about 600g. (Length: around 30cm, head to heel.) </item>
+        <item>Your baby weighs about the same as an average rutabaga (shalgam), around 660g. (Length: about 34.6cm, head to heel.)</item>
+        <item>Your baby is about the length of spring onion (hari pyaaz) and weighs about 760g. (Length: roughly 35.6cm, head to heel.) </item>
+        <item> Your baby is about as heavy as a head of cauliflower (phool gobhi), weighing in at about 875g. (Length: about 36.6cm, head to heel.) </item>
+        <item> Your baby is about the size of an aubergine or eggplant (baingan) weighing just over 1kg and about 37.6cm, head to heel.</item>
+        <item> Your baby is almost the size of a butternut squash (kaddu) and weighs just under 1.2kg. (Length: about 38.6cm, head to heel.) </item>
+        <item> Your baby is about as big as a good-sized cabbage (patta gobhi) this week, weighing in at about 1.3kg. (Length: roughly 39.9cm, head to heel.)</item>
+        <item> Your baby now weighs about as much as a coconut (nariyal), about 1.5kg. (Length: about 41.1cm, head to heel.) </item>
+        <item> Your baby is taking up more and more space in your uterus (womb) and weighs about as much as a large jicama (mishrikand) at 1.7kg. (Length: about 42.4cm, head to heel.)</item>
+        <item> Your baby weighs almost the same as a pineapple (ananas), which is about 1.9kg. (Length: about 43.7cm, head to heel.) </item>
+        <item> Your baby is about the size of an average cantaloupe melon (kharbooja), weighing about 2.1kg. (Length: roughly 45cm, head to heel.)</item>
+        <item> Your baby, now about as heavy as a honeydew melon (kharbooja) at about 2.4kg, doesn't have much room to manoeuvre in your tummy. (Length: about 46.2cm, head to heel.)</item>
+        <item> Your baby, over 2.6kg and still putting on weight at a rate of about 30g a day, is close to romaine lettuce (salad patta) in length (about 47.4cm, head to heel). </item>
+        <item> Your baby is about as long as a stalk of Swiss chard and weighs nearly 2.9kg. (Length: about 48.6cm, head to heel.) </item>
+        <item> Your baby, now about the size of a jack fruit (katthal), weighs around 3.1kg. (Length: about 49.8cm, head to heel.) </item>
+        <item>  Your baby is about as heavy as a mini-watermelon (tarbooj), weighing just under 3.3kgs (Length: about 50.7cm, head to heel).But keep in mind that the average Indian newborn may be slightly smaller and weigh anywhere between 2.5kgs and 2.9kgs when born at full term. </item>
+        <item> Your baby is around the size of a small pumpkin (kaddu/sitaphal) and weighs just under 3.5kg. (Length: 51.2cm, head to heel).Keep in mind that Indian babies tend to be slightly smaller at birth and a birth weight of anywhere between 2.5kgs and 2.9kgs is considered a healthy range for newborns.  </item>
+    </string-array>
+
+    <string-array name="boysname">
+
+        <item> Martin </item>
+        <item> Rafael </item>
+        <item>  Karson</item>
+        <item> Rylan </item>
+        <item> Reid </item>
+
+        <item> Theo</item>
+        <item> Eduardo </item>
+
+        <item> Raymond </item>
+        <item> Maximiliano </item>
+        <item> Anderson </item>
+        <item> Ronan </item>
+        <item> Lane </item>
+        <item> Cristian </item>
+        <item> Titus </item>
+        <item> Travis</item>
+        <item> Jett</item>
+        <item> Bodhi </item>
+        <item> Gideon </item>
+        <item> Gideon </item>
+        <item> Conor </item>
+        <item> Keegan </item>
+        <item> Cesar </item>
+        <item> Ellis</item>
+
+
+
+
+
+
+
+
+
+    </string-array>
+    <string-array name="womansname">
+
+        <item> Mary </item>
+        <item> Patricia </item>
+        <item>  Linda</item>
+        <item> Barbara </item>
+        <item> Elizabeth </item>
+
+        <item> Susan</item>
+        <item> Margaret </item>
+
+        <item> Dorothy </item>
+        <item> Lisa </item>
+        <item> Nancy </item>
+        <item> Karen </item>
+        <item> Betty </item>
+        <item> Helen </item>
+        <item> Sandra </item>
+        <item> Donna</item>
+        <item> Carol</item>
+        <item> Ruth </item>
+        <item> Sharon </item>
+        <item> Michelle </item>
+        <item> Amy </item>
+        <item> Anna </item>
+        <item> Rebecca </item>
+        <item> Martha</item>
+
+
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/top_navigation_layout"
+        android:background="@drawable/main_background_gradient"
+        android:visibility="visible"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <LinearLayout
+            android:id="@+id/navigation_btn_layout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:scaleType="fitCenter"
+                android:background="#00ffffff"
+                android:padding="15dp"
+                android:id="@+id/back_button"
+                android:src="@drawable/navbackbutton"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:contentDescription="welcome" />
+
+            <TextView
+                android:id="@+id/navigation_back_title"
+                android:textSize="22sp"
+                android:paddingTop="15dp"
+                android:text="Back"
+                android:textColor="@color/WhiteColor"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
